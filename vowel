@@ -1,7 +1,6 @@
 a=str(input("enter a character"))
 if(a.isupper()):
     a1=a.lower()
-    print(a1)
     if(a1=="a" or a1=="e" or a1=="i" or a1=="o" or a1=="u"):
         print("vowel")
     else:
